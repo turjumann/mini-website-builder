@@ -7,7 +7,7 @@ import UndoRedo from "@/components/website-builder/undo-redo"
 
 const WebsiteBuilderNavbar = () => {
   return (
-    <div className="py-2 px-4 flex justify-between items-center">
+    <div className="py-2 px-4 flex justify-between items-center select-none">
       <div className="flex gap-2 items-center">
         <UndoRedo />
         <ResetButton />

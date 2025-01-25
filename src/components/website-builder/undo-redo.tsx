@@ -8,22 +8,22 @@ const UndoRedo = () => {
   return (
     <div className="flex items-center gap-2">
       <Button
-        className="border border-border"
+        className="border border-border group"
         size="icon"
         disabled={isUndoDisabled}
         variant="ghost"
         onClick={undo}
       >
-        <Undo />
+        <Undo className="text-primary group-disabled:text-inherit" />
       </Button>
       <Button
         onClick={redo}
-        className="border border-border"
+        className="border border-border group"
         size="icon"
         disabled={isRedoDisabled}
         variant="ghost"
       >
-        <Redo />
+        <Redo className="text-primary group-disabled:text-inherit" />
       </Button>
     </div>
   )

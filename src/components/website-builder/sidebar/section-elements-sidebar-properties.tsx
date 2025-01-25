@@ -14,7 +14,7 @@ const SectionElementsSidebarProperties = () => {
   return (
     <div className="flex flex-col">
       <div className="flex justify-between items-center ">
-        <p className="text-md text-foreground/70 font-normal px-4">
+        <p className="text-md font-semibold text-foreground/70 px-4">
           Section Properties
         </p>
         <Button
