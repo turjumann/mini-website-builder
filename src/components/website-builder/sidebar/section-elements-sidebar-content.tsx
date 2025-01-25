@@ -5,7 +5,7 @@ import {
   SidebarGroupLabel,
 } from "@/components/ui/sidebar"
 import SidebarDraggableElement from "@/components/website-builder/sidebar/sidebar-draggable-element"
-import { SectionElements } from "@/components/website-builder/sections/SectionElements"
+import { SectionElements } from "@/components/website-builder/sections/section-elements"
 
 const SectionElementsSidebarContent = () => {
   return (

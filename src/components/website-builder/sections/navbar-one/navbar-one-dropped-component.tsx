@@ -1,6 +1,6 @@
 import { PageSize } from "@/components/context/builder-context"
-import { CustomNavbarOneInstance } from "@/components/website-builder/sections/NavbarOne/NavbarOne"
-import { SectionElementInstance } from "@/components/website-builder/sections/SectionElements"
+import { CustomNavbarOneInstance } from "@/components/website-builder/sections/navbar-one/navbar-one"
+import { SectionElementInstance } from "@/components/website-builder/sections/section-elements"
 import { cn } from "@/lib/utils"
 import React from "react"
 

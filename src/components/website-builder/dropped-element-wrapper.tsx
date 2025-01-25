@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import {
   SectionElementInstance,
   SectionElements,
-} from "@/components/website-builder/sections/SectionElements"
+} from "@/components/website-builder/sections/section-elements"
 import { toast } from "@/hooks/use-toast"
 import useBuilder from "@/hooks/use-builder"
 import { cn } from "@/lib/utils"

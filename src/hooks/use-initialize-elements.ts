@@ -1,4 +1,4 @@
-import { SectionElementInstance } from "@/components/website-builder/sections/SectionElements"
+import { SectionElementInstance } from "@/components/website-builder/sections/section-elements"
 import useBuilder from "@/hooks/use-builder"
 import { LOCAL_STORAGE_KEY } from "@/lib/constants"
 import { useEffect } from "react"

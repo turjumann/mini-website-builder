@@ -7,7 +7,7 @@ import { PageSize } from "@/components/context/builder-context"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
 import ResponsiveContainerPreviewToggle from "@/components/website-builder/responsive-container-preview-toggle"
-import { SectionElements } from "@/components/website-builder/sections/SectionElements"
+import { SectionElements } from "@/components/website-builder/sections/section-elements"
 import useBuilder from "@/hooks/use-builder"
 
 const PreviewDialogButton = () => {

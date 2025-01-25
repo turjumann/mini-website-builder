@@ -3,7 +3,7 @@
 import {
   SectionElementInstance,
   SectionElements,
-} from "@/components/website-builder/sections/SectionElements"
+} from "@/components/website-builder/sections/section-elements"
 import {
   createContext,
   Dispatch,

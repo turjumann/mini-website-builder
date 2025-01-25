@@ -1,13 +1,12 @@
 "use client"
 
-import NavbarOneDroppedComponent from "@/components/website-builder/sections/NavbarOne/NavbarOneDroppedComponent"
-import NavbarOnePreviewComponent from "@/components/website-builder/sections/NavbarOne/NavbarOnePreviewComponent"
-import NavbarOnePropertiesComponent from "@/components/website-builder/sections/NavbarOne/NavbarOnePropertiesComponent"
+import NavbarOneDroppedComponent from "@/components/website-builder/sections/navbar-one/navbar-one-dropped-component"
+import NavbarOnePropertiesComponent from "@/components/website-builder/sections/navbar-one/navbar-one-properties-compoment"
 import {
   ElementsType,
   SectionElement,
   SectionElementInstance,
-} from "@/components/website-builder/sections/SectionElements"
+} from "@/components/website-builder/sections/section-elements"
 
 const type: ElementsType = "NavBarOne"
 
@@ -30,7 +29,6 @@ export const NavbarOneSectionElement: SectionElement = {
     label: "Navbar 1",
   },
   droppedComponent: NavbarOneDroppedComponent,
-  previewComponent: () => <NavbarOnePreviewComponent />,
   propertiesComponent: NavbarOnePropertiesComponent,
 }
 

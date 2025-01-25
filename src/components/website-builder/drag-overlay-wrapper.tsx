@@ -3,7 +3,7 @@
 import {
   ElementsType,
   SectionElements,
-} from "@/components/website-builder/sections/SectionElements"
+} from "@/components/website-builder/sections/section-elements"
 import SidebarDraggableElementOverlay from "@/components/website-builder/sidebar/sidebar-draggable-element-overlay"
 import useBuilder from "@/hooks/use-builder"
 import { Active, DragOverlay, useDndMonitor } from "@dnd-kit/core"

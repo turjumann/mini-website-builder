@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { SectionElement } from "@/components/website-builder/sections/SectionElements"
+import { SectionElement } from "@/components/website-builder/sections/section-elements"
 import React from "react"
 
 const SidebarDraggableElementOverlay = ({

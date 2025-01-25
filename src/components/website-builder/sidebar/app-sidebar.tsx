@@ -10,7 +10,7 @@ import { Separator } from "@/components/ui/separator"
 import useBuilder from "@/hooks/use-builder"
 import SectionElementsSidebarContent from "@/components/website-builder/sidebar/section-elements-sidebar-content"
 import SectionElementsSidebarProperties from "@/components/website-builder/sidebar/section-elements-sidebar-properties"
-import { SectionElements } from "@/components/website-builder/sections/SectionElements"
+import { SectionElements } from "@/components/website-builder/sections/section-elements"
 import Link from "next/link"
 
 export function AppSidebar() {

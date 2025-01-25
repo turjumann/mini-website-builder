@@ -1,5 +1,5 @@
 import { PageSize } from "@/components/context/builder-context"
-import { NavbarOneSectionElement } from "@/components/website-builder/sections/NavbarOne/NavbarOne"
+import { NavbarOneSectionElement } from "@/components/website-builder/sections/navbar-one/navbar-one"
 
 export type ElementsType = "NavBarOne"
 
@@ -25,7 +25,6 @@ export type SectionElement = {
     }
     elementInstance: SectionElementInstance
   }>
-  previewComponent: React.FC
   propertiesComponent: React.FC<{
     elementInstance: SectionElementInstance
   }>

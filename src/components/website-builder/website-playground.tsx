@@ -14,7 +14,7 @@ import useBuilder from "@/hooks/use-builder"
 import {
   ElementsType,
   SectionElements,
-} from "@/components/website-builder/sections/SectionElements"
+} from "@/components/website-builder/sections/section-elements"
 import { idGenerator } from "@/lib/id-generator"
 import DroppedElementWrapper from "@/components/website-builder/dropped-element-wrapper"
 

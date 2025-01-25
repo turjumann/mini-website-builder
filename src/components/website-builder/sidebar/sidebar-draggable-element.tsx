@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { SectionElement } from "@/components/website-builder/sections/SectionElements"
+import { SectionElement } from "@/components/website-builder/sections/section-elements"
 
 import { useDraggable } from "@dnd-kit/core"
 import { cn } from "@/lib/utils"

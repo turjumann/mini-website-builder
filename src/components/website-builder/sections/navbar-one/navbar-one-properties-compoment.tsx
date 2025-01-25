@@ -1,5 +1,5 @@
-import type { CustomNavbarOneInstance } from "@/components/website-builder/sections/NavbarOne/NavbarOne"
-import { type SectionElementInstance } from "@/components/website-builder/sections/SectionElements"
+import type { CustomNavbarOneInstance } from "@/components/website-builder/sections/navbar-one/navbar-one"
+import { type SectionElementInstance } from "@/components/website-builder/sections/section-elements"
 import React, { useEffect, useState } from "react"
 import { useForm, Controller } from "react-hook-form"
 import { z } from "zod"

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { SectionElements } from "@/components/website-builder/sections/SectionElements"
+import { SectionElements } from "@/components/website-builder/sections/section-elements"
 import useBuilder from "@/hooks/use-builder"
 import { X } from "lucide-react"
 
