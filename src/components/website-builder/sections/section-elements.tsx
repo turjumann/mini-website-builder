@@ -1,7 +1,9 @@
 import { PageSize } from "@/components/context/builder-context"
 import { NavbarOneSectionElement } from "@/components/website-builder/sections/navbar/navbar-one/navbar-one"
+import { NavbarThreeSectionElement } from "@/components/website-builder/sections/navbar/navbar-three/navbar-three"
+import { NavbarTwoSectionElement } from "@/components/website-builder/sections/navbar/navbar-two/navbar-two"
 
-export type ElementsType = "NavBarOne"
+export type ElementsType = "NavbarOne" | "NavbarTwo" | "NavbarThree"
 
 export type SectionElementInstance = {
   id: string
@@ -34,5 +36,7 @@ type SectionElementsType = {
   [key in ElementsType]: SectionElement
 }
 export const SectionElements: SectionElementsType = {
-  NavBarOne: NavbarOneSectionElement,
+  NavbarOne: NavbarOneSectionElement,
+  NavbarTwo: NavbarTwoSectionElement,
+  NavbarThree: NavbarThreeSectionElement,
 }

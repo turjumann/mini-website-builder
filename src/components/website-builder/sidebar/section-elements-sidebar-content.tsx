@@ -15,7 +15,11 @@ const SectionElementsSidebarContent = () => {
           Navigation Bars
         </SidebarGroupLabel>
         <SidebarGroupContent className="p-2 grid grid-cols-2 gap-4 w-fit">
-          <SidebarDraggableElement sectionElement={SectionElements.NavBarOne} />
+          <SidebarDraggableElement sectionElement={SectionElements.NavbarOne} />
+          <SidebarDraggableElement sectionElement={SectionElements.NavbarTwo} />
+          <SidebarDraggableElement
+            sectionElement={SectionElements.NavbarThree}
+          />
         </SidebarGroupContent>
       </SidebarGroup>
       <SidebarGroup>

@@ -168,7 +168,7 @@ const WebsitePlayground = () => {
               {!droppable.isOver && elements.length === 0 && (
                 <div className="flex items-center justify-center flex-1 flex-col">
                   <p className="text-2xl font-extralight opacity-45">
-                    Drop here
+                    Drop sections here to get started
                   </p>
                 </div>
               )}
