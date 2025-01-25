@@ -33,7 +33,7 @@ These tools were chosen to ensure a modern, efficient, and maintainable developm
 
 ## Why I Used @dnd-kit/core
 
-I chose **@dnd-kit/core** for the drag-and-drop functionality because it’s lightweight, performant, and highly customizable. It’s built specifically for React, making it easy to integrate, and it supports features like smooth animations, keyboard accessibility, and multi-device compatibility. Unlike the HTML5 Drag-and-Drop API, it’s consistent across browsers and devices, and its modular design allowed me to implement advanced features like reordering and editable sections without unnecessary complexity. Overall, it was the perfect fit for creating a seamless drag-and-drop experience in the Mini Website Builder.
+I chose [`@dnd-kit/core`] for the drag-and-drop functionality because it’s lightweight, performant, and highly customizable. It’s built specifically for React, making it easy to integrate, and it supports features like smooth animations, keyboard accessibility, and multi-device compatibility. Unlike the HTML5 Drag-and-Drop API, it’s consistent across browsers and devices, and its modular design allowed me to implement advanced features like reordering and editable sections without unnecessary complexity. Overall, it was the perfect fit for creating a seamless drag-and-drop experience in the Mini Website Builder.
 
 ## To run this project locally
 
