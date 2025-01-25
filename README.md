@@ -1,10 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## About This Project
 
-## Getting Started
+This is a **Mini Website Builder**—a straightforward tool designed to help users create web pages quickly and efficiently. It’s built for simplicity and practicality, allowing you to construct pages using a drag-and-drop interface without needing to write code. Whether you’re a beginner or someone looking for a lightweight solution, this tool is here to make the process smooth and hassle-free.
 
-First, run the development server:
+### Key Features
+
+- **Drag-and-Drop Functionality**: Pre-made sections like headers, hero areas, and footers can be dragged and dropped into the preview area to build your page.  
+- **Live Preview**: As you add or modify sections, the preview updates in real-time, so you can see exactly how your page will look.  
+- **Import/Export**: Save your design as a JSON file, **not only to your computer but also to your localstorage** ,to export it for later use or share it with others. You can also import saved designs to continue editing.  
+- **Editable Sections**: Customize sections by editing properties like titles, descriptions, and image URLs. You can also delete or reorder sections to refine your layout.  
+
+### Purpose
+
+This project is designed for:  
+- **Beginners** who want to create web pages without coding.  
+- **Developers** who need a quick and simple prototyping tool.  
+- **Anyone** looking for an efficient way to build and customize web pages.  
+
+It’s a practical, no-frills solution for creating web pages with ease, offering just the right balance of simplicity and functionality.
+
+## Tools & Libraries Used
+
+The project is built using the following main tools and libraries:
+
+- **Drag-and-Drop**: [`@dnd-kit/core`](https://dndkit.com/) for implementing the drag-and-drop functionality.  
+- **UI Components**: [`shadcn`](https://ui.shadcn.com/) and [`@radix-ui`](https://www.radix-ui.com/) for building accessible and customizable UI components.  
+- **Styling**: [`tailwind-css`](https://tailwindcss.com/) for utility-first CSS styling.  
+- **Theming**: [`next-themes`](https://github.com/pacocoursey/next-themes) for handling light/dark mode themes.  
+- **Validation**: [`zod`](https://zod.dev/) for schema validation.  
+- **Form Management**: [`react-hook-form`](https://react-hook-form.com/) for managing form state and inputs efficiently.  
+
+These tools were chosen to ensure a modern, efficient, and maintainable development experience while delivering a smooth user experience.
+
+## Why I Used @dnd-kit/core
+
+I chose **@dnd-kit/core** for the drag-and-drop functionality because it’s lightweight, performant, and highly customizable. It’s built specifically for React, making it easy to integrate, and it supports features like smooth animations, keyboard accessibility, and multi-device compatibility. Unlike the HTML5 Drag-and-Drop API, it’s consistent across browsers and devices, and its modular design allowed me to implement advanced features like reordering and editable sections without unnecessary complexity. Overall, it was the perfect fit for creating a seamless drag-and-drop experience in the Mini Website Builder.
+
+## To run this project locally
 
 ```bash
+# First, make sure to install all deps & libs
+npm install
+
+# Second, run
 npm run dev
 # or
 yarn dev
@@ -13,24 +50,3 @@ pnpm dev
 # or
 bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
