@@ -1,5 +1,5 @@
 import { PageSize } from "@/components/context/builder-context"
-import { NavbarOneSectionElement } from "@/components/website-builder/sections/navbar-one/navbar-one"
+import { NavbarOneSectionElement } from "@/components/website-builder/sections/navbar/navbar-one/navbar-one"
 
 export type ElementsType = "NavBarOne"
 

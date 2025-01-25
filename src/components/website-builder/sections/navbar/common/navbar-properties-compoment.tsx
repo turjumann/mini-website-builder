@@ -1,4 +1,3 @@
-import type { CustomNavbarOneInstance } from "@/components/website-builder/sections/navbar-one/navbar-one"
 import { type SectionElementInstance } from "@/components/website-builder/sections/section-elements"
 import React, { useEffect, useState } from "react"
 import { useForm, Controller } from "react-hook-form"
@@ -17,6 +16,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Trash2 } from "lucide-react"
+import { CustomNavbarInstance } from "@/components/website-builder/sections/navbar/common/constants"
 
 const propertiesSchema = z.object({
   logoText: z
@@ -43,14 +43,14 @@ const propertiesSchema = z.object({
     .or(z.literal("")),
 })
 
-type NavbarOnePropertiesSchema = z.infer<typeof propertiesSchema>
+type NavbarPropertiesSchema = z.infer<typeof propertiesSchema>
 
-const NavbarOnePropertiesComponent = ({
+const NavbarPropertiesComponent = ({
   elementInstance,
 }: {
   elementInstance: SectionElementInstance
 }) => {
-  const element = elementInstance as CustomNavbarOneInstance
+  const element = elementInstance as CustomNavbarInstance
 
   const { updateElement, setSelectedElement } = useBuilder()
 
@@ -58,7 +58,7 @@ const NavbarOnePropertiesComponent = ({
     element.instanceProperties.navbarItems
   )
 
-  const form = useForm<NavbarOnePropertiesSchema>({
+  const form = useForm<NavbarPropertiesSchema>({
     resolver: zodResolver(propertiesSchema),
     mode: "onBlur",
     defaultValues: {
@@ -76,7 +76,7 @@ const NavbarOnePropertiesComponent = ({
     })
   }, [form, element, navbarItems])
 
-  function applyChanges(values: NavbarOnePropertiesSchema) {
+  function applyChanges(values: NavbarPropertiesSchema) {
     const currElement = updateElement(element.id, {
       ...element,
       instanceProperties: {
@@ -235,4 +235,4 @@ const NavbarOnePropertiesComponent = ({
   )
 }
 
-export default NavbarOnePropertiesComponent
+export default NavbarPropertiesComponent

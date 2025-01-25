@@ -1,5 +1,5 @@
 import { PageSize } from "@/components/context/builder-context"
-import { CustomNavbarOneInstance } from "@/components/website-builder/sections/navbar-one/navbar-one"
+import { CustomNavbarInstance } from "@/components/website-builder/sections/navbar/common/constants"
 import { SectionElementInstance } from "@/components/website-builder/sections/section-elements"
 import { cn } from "@/lib/utils"
 import React from "react"
@@ -14,7 +14,7 @@ const NavbarOneDroppedComponent = ({
     pageSize: string
   }
 }) => {
-  const element = elementInstance as CustomNavbarOneInstance
+  const element = elementInstance as CustomNavbarInstance
   const {
     instanceProperties: { bgColor, textColor, logoText, navbarItems },
   } = element
