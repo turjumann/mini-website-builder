@@ -1,13 +1,12 @@
 import { type SectionElementInstance } from "@/components/website-builder/sections/section-elements"
 import React, { useEffect, useState } from "react"
-import { useForm, Controller } from "react-hook-form"
+import { useForm } from "react-hook-form"
 import { z } from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
 import useBuilder from "@/hooks/use-builder"
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,

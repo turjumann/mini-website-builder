@@ -3,7 +3,6 @@
 import { footerInstanceProperties } from "@/components/website-builder/sections/footer/common/constants"
 import FooterPropertiesComponent from "@/components/website-builder/sections/footer/common/footer-properties-component"
 import FooterTwoDroppedComponent from "@/components/website-builder/sections/footer/footer-two/footer-two-dropped-component"
-import NavbarPropertiesComponent from "@/components/website-builder/sections/navbar/common/navbar-properties-compoment"
 import {
   ElementsType,
   SectionElement,
