@@ -54,20 +54,20 @@ export default function BuilderContextProvider({
 }) {
   const { toast } = useToast()
 
-  const [elements, setElements] = useState<SectionElementInstance[]>([])
+  // const [elements, setElements] = useState<SectionElementInstance[]>([])
 
-  // const [elements, setElements] = useState<SectionElementInstance[]>(() => {
-  //   const savedElements = localStorage.getItem(LOCAL_STORAGE_KEY)
-  //   if (savedElements) {
-  //     try {
-  //       return JSON.parse(savedElements)
-  //     } catch (error) {
-  //       console.error("Error parsing saved elements:", error)
-  //       return []
-  //     }
-  //   }
-  //   return []
-  // })
+  const [elements, setElements] = useState<SectionElementInstance[]>(() => {
+    const savedElements = localStorage.getItem(LOCAL_STORAGE_KEY)
+    if (savedElements) {
+      try {
+        return JSON.parse(savedElements)
+      } catch (error) {
+        console.error("Error parsing saved elements:", error)
+        return []
+      }
+    }
+    return []
+  })
 
   const [historyStack, setHistoryStack] = useState<SectionElementInstance[][]>([
     [],
