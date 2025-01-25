@@ -22,28 +22,24 @@ const SectionElementsSidebarContent = () => {
           />
         </SidebarGroupContent>
       </SidebarGroup>
+
       <SidebarGroup>
         <SidebarGroupLabel className="font-bold text-sm">
           Hero Sections
         </SidebarGroupLabel>
         <SidebarGroupContent className="p-2 grid grid-cols-2 gap-4 w-fit">
-          Content 2
+          <SidebarDraggableElement sectionElement={SectionElements.HeroOne} />
+          <SidebarDraggableElement sectionElement={SectionElements.HeroTwo} />
         </SidebarGroupContent>
       </SidebarGroup>
-      <SidebarGroup>
-        <SidebarGroupLabel className="font-bold text-sm">
-          Body Sections
-        </SidebarGroupLabel>
-        <SidebarGroupContent className="p-2 grid grid-cols-2 gap-4 w-fit">
-          content 3
-        </SidebarGroupContent>
-      </SidebarGroup>
+
       <SidebarGroup>
         <SidebarGroupLabel className="font-bold text-sm">
           Footer Sections
         </SidebarGroupLabel>
         <SidebarGroupContent className="p-2 grid grid-cols-2 gap-4 w-fit">
-          content 4
+          <SidebarDraggableElement sectionElement={SectionElements.FooterOne} />
+          <SidebarDraggableElement sectionElement={SectionElements.FooterTwo} />
         </SidebarGroupContent>
       </SidebarGroup>
     </>

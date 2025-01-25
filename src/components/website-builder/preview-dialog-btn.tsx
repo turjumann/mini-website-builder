@@ -62,7 +62,7 @@ const PreviewDialogButton = () => {
         {isPreviewOpen && (
           <div
             className={cn(
-              "overflow-y-auto mx-auto w-full flex bg-white dark:bg-card flex-col justify-start p-0 h-full",
+              "overflow-y-auto mx-auto w-full flex bg-white dark:bg-card flex-col justify-start p-0 h-full max-h-full",
               "transition-maxWidth duration-200",
               pageConfig.pageSize
             )}

@@ -161,6 +161,7 @@ export default function BuilderContextProvider({
     if (pointer > 0) {
       setPointer((prev) => prev - 1)
       setElements(historyStack[pointer - 1])
+      if (selectedElement) setSelectedElement(null)
     }
   }
 
@@ -168,6 +169,7 @@ export default function BuilderContextProvider({
     if (pointer < historyStack.length - 1) {
       setPointer((prev) => prev + 1)
       setElements(historyStack[pointer + 1])
+      if (selectedElement) setSelectedElement(null)
     }
   }
 
