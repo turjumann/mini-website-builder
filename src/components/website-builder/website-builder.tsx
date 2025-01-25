@@ -3,6 +3,7 @@
 import {
   DndContext,
   MouseSensor,
+  pointerWithin,
   TouchSensor,
   useSensor,
   useSensors,
@@ -29,7 +30,7 @@ const WebsiteBuilder = () => {
   const id = useId()
 
   return (
-    <DndContext sensors={sensors} id={id}>
+    <DndContext sensors={sensors} id={id} collisionDetection={pointerWithin}>
       <WebsitePlayground />
       <DragOverlayWrapper />
     </DndContext>
